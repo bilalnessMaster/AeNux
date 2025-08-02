@@ -112,7 +112,7 @@ https://forum.mattkc.com/viewtopic.php?t=337
     Include = /etc/pacman.d/mirrorlist
   ```   
 - If the script runs successfully but After Effects crashes or fails to open, 
-  try installing the AMD graphics drivers (especially if you're using Hyprland):  
+  try installing the AMD graphics drivers (especially if you're using Hyprland or you have specs like me or amd gpu):  
   ```bash
      sudo pacman -Syu mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon linux-firmware \
      xf86-video-amdgpu mesa-utils vulkan-tools
