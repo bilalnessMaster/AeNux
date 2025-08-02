@@ -1,5 +1,10 @@
 # AeNux v1.8
 
+## 📌 Note
+
+  - this is not the original repo (I just add the ARCHLUNIX logic) 
+  [ORIGINAL REPOSITORY](https://github.com/cutefishaep/AeNux)
+---
 <p align="center">
   <img src="https://raw.githubusercontent.com/cutefishaep/AeNux/refs/heads/main/LOGO.png" alt="AeNux Logo" width="200"/><br>
   <strong style="font-size:100px">AeNux</strong>
