@@ -36,10 +36,10 @@
 
 ## 💻 Tested On
 
-- **OS**: Linux Mint 22.1 Cinnamon & Debian 12 & ElementaryOS 8.0.1 & Ubuntu Budgie  
-- **CPU**: 11th Gen Intel® Core™ i3-1115G4 @ 3.00GHz × 2  
-- **GPU**: Intel Corporation Tiger Lake-LP GT2 [UHD Graphics G4]  
-- **Memory**: 8 GB RAM  
+- **OS**: Arch Linux x86_64 | Linux 6.15.8-arch1-1 | hyprland(wayland) 
+- **CPU**: AMD Ryzen™ 5 5600G 
+- **GPU**: Radeon Vega 7  
+- **Memory**: 16 GB RAM  
 
 ---
 
@@ -103,6 +103,19 @@ https://forum.mattkc.com/viewtopic.php?t=337
 - Adding "Open With AeNux" on supported file
 
 ---
+## TODO FOR ARCHLUNIX
 
+- Make sure you enable (uncommment) the lib32 package on pacman config
+  Open /etc/pacman.conf and uncomment the following lines:
+  ```/etc/pacman.conf
+    [multilib]
+    Include = /etc/pacman.d/mirrorlist
+  ```   
+- If the script runs successfully but After Effects crashes or fails to open, 
+  try installing the AMD graphics drivers (especially if you're using Hyprland):  
+  ```bash
+     sudo pacman -Syu mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon linux-firmware \
+     xf86-video-amdgpu mesa-utils vulkan-tools
+  ```
+---
 Happy Editing on Linux! 🎬🐧
-

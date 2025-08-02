@@ -71,7 +71,7 @@ if [[ $? -eq 0 ]]; then
   if [[ "$origin" == "ubuntu" ]]; then
      sudo apt-get purge --auto-remove winehq-* -y
   elif [[ "$origin" == "archlinux" ]]; then
-     sudo pacman -Rns wine winetricks --noconfirm
+     sudo pacman -Rns wine-gecko wine-mono wine winetricks --noconfirm
   fi
 
 
